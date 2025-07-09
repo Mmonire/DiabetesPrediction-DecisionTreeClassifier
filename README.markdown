@@ -107,30 +107,6 @@ To run this project, you need:
 - **CART**: Supports binary splits, suitable for both numerical and categorical data.
 
 ## 📈 Optional Visualization
-To visualize the decision trees, you can extend the code to generate graphical outputs using MATLAB's plotting functions or external tools like Graphviz. For example:
+To visualize the decision trees, you can extend the code to generate graphical outputs using MATLAB's plotting functions or external tools like Graphviz.
 - Save the tree structure as a `.dot` file and render it with Graphviz.
-- Example placeholder for a tree visualization:
-  ```markdown
-  ![Decision Tree Example](images/decision_tree.png)
-  ```
   *Note: Add a visualization by generating a `.dot` file or using MATLAB's `graph` functions if desired.*
-
-## 📝 Notes
-- The dataset (`diabetes.csv`) includes at least 3 categorical, 1 binary, and 1 ordinal feature, as required.
-- Features `id` and `name` were removed as they do not contribute to classification (no predictive value).
-- The project was developed as part of a data mining course assignment, focusing on decision tree algorithms.
-- Accuracy and error metrics are printed for each model, allowing easy comparison.
-
-## 🤝 Contributing
-Contributions are welcome! To contribute:
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature-branch`).
-3. Make changes and commit (`git commit -m 'Add feature'`).
-4. Push to the branch (`git push origin feature-branch`).
-5. Open a pull request.
-
-## 📜 License
-This project is licensed under the MIT License.
-
-## 🎓 Credits
-Developed by Amirhossein Bahador and Sebna Molazadeh as part of a data mining course project under the supervision of Dr. Seyed Hashem Tabasi.
